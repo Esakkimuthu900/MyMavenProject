@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name = "studentname" value = "Raja" ></parameter>
+  <parameter name = "studentid" value = "040672"></parameter>
+  
+  <parameter name = "studentname" value = "Esakki"></parameter>
+  <parameter name= "studentid" value = "040673"></parameter>
+  
+  <classes>
+  
+  <class name = "com.testng.futures.Parameterized_Test">
+  
+  </class>
+  
+  </classes>
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
